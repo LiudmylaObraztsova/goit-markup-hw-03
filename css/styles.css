@@ -223,7 +223,6 @@ body {
 
 .features .text {
   margin-top: 0;
-  /* margin-bottom: 94px; */
 
   font-weight: 400;
   font-size: 14px;
@@ -297,13 +296,8 @@ body {
 }
 
 .content .title {
-  /* background-color: var(--primary-white-color); */
   margin-bottom: 10px;
 }
-
-/* .employees-list {
-  padding-bottom: 30px;
-} */
 
 /* footer */
 footer {
@@ -401,11 +395,6 @@ footer {
 
 .flex-element:nth-last-child(-n + 3) {
   margin-bottom: 0;
-}
-
-.border {
-  width: 322px;
-  border: 1px red;
 }
 
 .title-second {
