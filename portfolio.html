@@ -17,7 +17,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="portfolio">
       <div class="container">
         <div class="main-navigation">
           <nav class="main-nav">
@@ -41,60 +41,62 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="section">
         <div class="container">
-          <h1 class="title">Портфолио</h1>
-          <ul class="list">
-            <li><button class="button-radio">Все</button></li>
-            <li><button class="button-radio">Приложения</button></li>
-            <li><button class="button-radio">Дизайн</button></li>
-            <li><button class="button-radio">Маркетинг</button></li>
-            <li><button class="button-radio">Веб-сайты</button></li>
+          <h1 class="title visualy-hidden">Портфолио</h1>
+          <ul class="buttons list">
+            <li class="item"><button class="button-radio">Приложения</button></li>
+            <li class="item"><button class="button-radio">Все</button></li>
+            <li class="item"><button class="button-radio">Дизайн</button></li>
+            <li class="item"><button class="button-radio">Маркетинг</button></li>
+            <li class="item"><button class="button-radio">Веб-сайты</button></li>
           </ul>
           <ul class="flex-container list">
             <li class="flex-element">
               <img src="./image/img(3).jpg" alt="ноутбук с фото" />
-              <h2 class="title-second">Технокряк</h2>
-              <p class="text-second">Веб-сайт</p>
+              <div class="border">
+                <h2 class="title-second list">Технокряк</h2>
+                <p class="text-second">Веб-сайт</p>
+              </div>
             </li>
             <li class="flex-element">
               <img src="./image/img(4).jpg" alt="спортсмены" />
-              <h2 class="title-second">Постер New Orlean vs Golden Star</h2>
+              <h2 class="title-second list">Постер New Orlean vs Golden Star</h2>
               <p class="text-second">Дизайн</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(5).jpg" alt="логотип ресторана" />
-              <h2 class="title-second">Ресторан Seafood</h2>
+              <h2 class="title-second list">Ресторан Seafood</h2>
               <p class="text-second">Приложение</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(6).jpg" alt="наушники" />
-              <h2 class="title-second">Проект Prime</h2>
+              <h2 class="title-second list">Проект Prime</h2>
               <p class="text-second">Маркетинг</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(7).jpg" alt="коробки" />
-              <h2 class="title-second">Проект Boxes</h2>
+              <h2 class="title-second list">Проект Boxes</h2>
               <p class="text-second">Приложение</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(8).jpg" alt="монитор" />
-              <h2 class="title-second">Inspiration has no Borders</h2>
+              <h2 class="title-second list">Inspiration has no Borders</h2>
               <p class="text-second">Веб-сайт</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(9).jpg" alt="открытая книга" />
-              <h2 class="title-second">Издание Limited Edition</h2>
+              <h2 class="title-second list">Издание Limited Edition</h2>
               <p class="text-second">Дизайн</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(10).jpg" alt="ярлык" />
-              <h2 class="title-second">Проект LAB</h2>
+              <h2 class="title-second list">Проект LAB</h2>
               <p class="text-second">Маркетинг</p>
             </li>
             <li class="flex-element">
               <img src="./image/img(11).jpg" alt="руки на клавиатуре" />
-              <h2 class="title-second">Growing Business</h2>
+              <h2 class="title-second list">Growing Business</h2>
               <p class="text-second">Приложение</p>
             </li>
           </ul>
@@ -103,17 +105,19 @@
     </main>
 
     <!--подвал-нижняя часть-->
-    <footer>
-      <a class="logo-footer" href="#"><span class="accent">Web</span>Studio</a>
-      <address class="location">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="contacts-footer list">
-        <li>
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
-      </ul>
+     <footer>
+     <div class="container">
+        <div class="logo-link">
+          <a class="logo-footer" href="#"><span class="accent">Web</span>Studio</a>
+        </div>
+        <address class="location">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="contacts-footer list">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
+        </ul>
+     </div>
     </footer>
   </body>
 </html>
