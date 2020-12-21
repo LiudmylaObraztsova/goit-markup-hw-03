@@ -355,9 +355,13 @@ footer {
 }
 
 .button-radio {
+  padding: 6px 22px;
+  cursor: pointer;
+
   background-color: #f5f4fa;
   color: var(--title-text-color);
 
+  font-family: roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -375,11 +379,6 @@ footer {
 
 .buttons .item {
   margin-right: 8px;
-}
-
-.button-radio {
-  padding: 6px 22px;
-  cursor: pointer;
 }
 
 .button-radio:hover,
