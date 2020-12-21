@@ -16,6 +16,7 @@ body {
   font-family: roboto, sans-serif;
 }
 /*  #000000 цвет лого */
+
 img {
   display: block;
   width: 100%;
@@ -142,6 +143,9 @@ img {
 
 /* Секция герой*/
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: #2f303a;
   text-align: center;
 }
@@ -176,12 +180,6 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
 }
-.section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  /* padding-left: 215px;
-  padding-right: 215px; */
-}
 
 .features-container {
   display: flex;
@@ -200,10 +198,13 @@ img {
   letter-spacing: 0.03em;
 }
 
+.all-features {
+  padding-top: 94px;
+}
+
 .features {
   display: flex;
   flex-wrap: wrap;
-  background-color: #blue;
 }
 
 .features .title {
@@ -230,6 +231,7 @@ img {
 
 .features .text {
   margin-top: 0;
+  margin-bottom: 0;
 
   font-weight: 400;
   font-size: 14px;
@@ -237,8 +239,9 @@ img {
   letter-spacing: 0.03em;
 }
 
-.work-list {
-  margin-bottom: 86px;
+.all-work {
+  padding-top: 94px;
+  padding-bottom: 86px;
 }
 
 .work {
@@ -288,7 +291,7 @@ img {
 
 .employees .text {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 
   font-weight: 400;
   font-size: 16px;
@@ -359,6 +362,11 @@ footer {
 /* css для портфолио */
 .portfolio {
   border-bottom: 1px solid #ececec;
+}
+
+.all-flex {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .button-radio {
