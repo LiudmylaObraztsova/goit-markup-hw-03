@@ -182,7 +182,7 @@ body {
 
 .section-title {
   margin-top: 0;
-  margin-bottom: 50;
+  margin-bottom: 50 px;
 
   color: var(--title-text-color);
 
