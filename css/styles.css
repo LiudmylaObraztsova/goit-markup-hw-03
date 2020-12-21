@@ -320,6 +320,8 @@ footer {
   letter-spacing: 0.03em;
 }
 .location {
+  margin-bottom: 9px;
+
   color: var(--primary-white-color);
 
   font-style: normal;
@@ -337,6 +339,14 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.contacts-link {
+  margin-bottom: 9px;
+}
+
+.contacts-link:last-child {
+  margin-bottom: 0;
 }
 
 /* css для портфолио */
